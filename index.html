@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+    <script src="script.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("YSs9v0Kf0jbmAD8Tu");
+})();
+</script>
+
+</head>
+<body>
+
+
+
+    <section class="contact" id="contact">
+        <h3 class="title">contact Us</h3>
+        <p class="sub-title">Get in Touch</p>
+        <div class="container">
+            <div class="text">
+                <h2>Get in Touch</h2>
+                <p>
+                    It is a long established fact that a reader will be distracted by readable
+                    It is a long established fact that a reader will be distracted by readable
+                    It is a long established fact that a reader will be distracted by readable
+                    It is a long established fact that a reader will be distracted by readable
+                    It is a long established fact that a reader will be distracted by readable
+                </p>
+                <div class="item">
+                    <div class="icon">
+                    </div>
+                    <div class="description">
+                        <p><strong>Name</strong></p>
+                        <small>BM SQUARE</small>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="icon">
+                    </div>
+                    <div class="description">
+                        <p><strong>Adress</strong></p>
+                        <small>Syntax</small>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="icon">
+                    </div>
+                    <div class="description">
+                        <p><strong>Phone</strong></p>
+                        <small>+20 012222222222</small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="form-parent">
+            <form class="contant-form"  method="POST">
+                <input id="username" class="form-control" type="text" name="username" placeholder="Your Name Please"
+                    class="w-100" />
+
+                <input id="email" class="form-control" type="email" name="email" placeholder="Your Email Please"
+                    class="w-100" />
+
+                <input class="form-control" type="text" name="cellphone" placeholder="Your Number Please"
+                    class="w-100" />
+
+                <input type="text" name="address" placeholder="Address(Optional)" class="w-100" />
+
+                <label for="cars">Choose Type of the servies:</label>
+                <select name="serviestype" id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Other</option>
+                </select>
+                <br><br>
+
+                <textarea type="text" name="description"
+                    placeholder="Please, any servies not found in Choose put It's name or  It's description here..."
+                    class="w-100">
+        </textarea>
+
+                <button type="submit" onclick="SendMail()">Submit</button>
+        </div>
+        </form>
+
+
+        
+    </section>
+
+
+
+</body>
+
+</html>
